@@ -1,0 +1,107 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// main
+#main {
+  max-width: 1420px !important;
+}
+
+// font-size change
+.page__content {
+  font-size: 15px !important;
+}
+
+.page__lead {
+  display: none;
+}
+
+.page {
+  //padding-right: 0px !important;
+}
+
+.sidebar li {
+  margin: 10px 0 !important;
+}
+
+code.highlighter-rouge {
+  background-color: #f9f2f4 !important;
+  color: #c7254e !important;
+  font-family: Monaco,Consolas,"Lucida Console",monospace !important;
+
+}
+
+.page__hero--overlay blockquote {
+  color: white !important;
+}
+
+.page__inner-wrap a {
+  target: _blank !important;
+}
+
+div .highlight {
+  margin: 5px 0;
+  //font-size: 14px !important;
+}
+
+pre .highlight {
+  color: #222222 !important;
+}
+
+div .MathJax_Display{
+  text-align: left !important;
+}
+
+table {
+  width: 60%;
+  margin: auto;
+}
+
+.initial-content .archive{
+  padding-right: 50px !important;
+}
+
+/*
+  Post By Archive Style
+*/
+.archive-date{
+  font-size: 18px !important;
+  color: black !important;
+}
+
+.archive-title{
+  font-size: 16px !important;
+  font-style: italic !important;
+}
+
+.archive-post-list ul{
+  list-style: none; //ul 태그 점 제거
+}
+
+.archive-post-list a{
+  text-decoration: none; // a 태그 스타일 제거
+}
+
+/*
+h 태크 폰트 크기
+*/
+h1{
+  font-size: 1.7em !important;
+}
+
+h2{
+  font-size: 1.5em !important;
+}
+
+h3{
+  font-size: 1.25em !important;
+}
+
+h4{
+  font-size: 1.2em !important;
+}
