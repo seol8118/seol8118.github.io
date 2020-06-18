@@ -246,6 +246,19 @@ sidebar-tools:
   - title: "python"
     url: /python/
 
+###################### tools - Git (start) #############################
+
+sidebar-Git:
+  - title: "GO BACK"
+    url: /tools/
+  - title: "Git 사용법"
+    url: /touch_system_contents/
+  - title: "Git blog 만들기"
+    children:
+      - title: "01. 기본 환경 설치"
+        url: "Git/git-programming-01-install-01"
+      - title: "02. Rstudio 구성"
+        url: "Git/git-programming-01-install-02"
 
 ###################### tools - python (start) #############################
 

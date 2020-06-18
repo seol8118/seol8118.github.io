@@ -1,5 +1,5 @@
 ---
-title: "Data Science"
+title: "Machine Learning"
 permalink: /dataScience/
 sidebar:
   nav: sidebar-dataScience

@@ -1,5 +1,5 @@
 ---
-title: "tools"
+title: "Tools"
 permalink: /tools/
 sidebar:
   nav: sidebar-tools
