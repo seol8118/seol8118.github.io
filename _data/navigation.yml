@@ -2,10 +2,12 @@
 main:
   - title: "About"
     url: /about/
-  #- title: "ML study"
-   # url: /development/
+  - title: "Development"
+    url: /development/
   - title: "ML study"
     url: /dataScience/
+  - title: "Tools"
+    url: /tools/
   - title: "Posts By"
     url: /archive/
 
@@ -13,78 +15,36 @@ main:
 sidebar-development:
   - title: "Intro"
     url: /development/
-  - title: "[book] Deep learning - Ian Goodfellow"
-    url: /bookDL/
-  - title: "PYTHON"
-    url: /python/
-  - title: "ALGORITHM"
-    url: /algorithm/
+  - title: "Touch application"
+    url: /touch/
+  - title: "Automatic trading system"
+    url: /trading/
+  - title: "ML application"
+    url: /MLappl/
 
-###################### development - R (start) #############################
+###################### development - touch (start) #############################
 
-sidebar-bookDL:
+sidebar-touch:
   - title: "GO BACK"
     url: /development/
-  - title: "R 프로그래밍"
-    url: /r_programming_contents/
+  - title: "Touch system"
+    url: /touch_system_contents/
 
-sidebar-bookDL-programming:
+sidebar-touch-programming:
   - title: "GO BACK"
     url: /development/
   - title: "Contents"
-    url: /r_programming_contents/
+    url: /touch_system_contents/
   - title: "1 - Install"
     children:
       - title: "01. R언어 및 Rstudio 설치"
-        url: "r/r-programming-01-install-01"
+        url: "touch/touch-programming-01-install-01"
       - title: "02. Rstudio 구성"
-        url: "r/r-programming-01-install-02"
-      - title: "03. 스크립트 파일 관리"
-        url: "r/r-programming-01-install-03"
-      - title: "04. 프로젝트를 이용한 파일관리"
-        url: "r/r-programming-01-install-04"
-      - title: "05. 패키지 설치 및 관리"
-        url: "r/r-programming-01-install-05"
+        url: "touch/touch-programming-01-install-02"
 
-  - title: "2 - Data Type"
-    children:
-      - title: "01. R의 데이터 유형"
-        url: "r/r-programming-02-dataType-01"
-      - title: "02. 단일 종류의 데이터"
-        url: "r/r-programming-02-dataType-02"
-      - title: "03. 단일 종류의 데이터 다루기"
-        url: "r/r-programming-02-dataType-03"
-      - title: "04. 리스트 다루기"
-        url: "r/r-programming-02-dataType-04"
-      - title: "05.1 데이터에 속성 추가"
-        url: "r/r-programming-02-dataType-05-01"
-      - title: "05.2.1 확장 벡터 (요인형)"
-        url: "r/r-programming-02-dataType-05-02-01"
-      - title: "05.2.2 확장 벡터 (메트릭스)"
-        url: "r/r-programming-02-dataType-05-02-02"
-      - title: "05.2.3 확장 벡터 (데이터프레임)"
-        url: "r/r-programming-02-dataType-05-02-03"
-      - title: "06. R의 기본 연산자"
-        url: "r/r-programming-02-dataType-06"
+###################### development - touch (end) #############################
 
-  - title: "3 - Function"
-    children:
-      - title: "01. 함수의 구조 및 작성"
-        url: "r/r-programming-03-function-01"
-      - title: "02. 조건문 if"
-        url: "r/r-programming-03-function-02"
-      - title: "03. 반복문 for"
-        url: "r/r-programming-03-function-03"
-      - title: "04. 반복문 작성 예시"
-        url: "r/r-programming-03-function-04"
-      - title: "05. apply 계열 함수"
-        url: "r/r-programming-03-function-05"
-      - title: "06. 에러 처리"
-        url: "r/r-programming-03-function-06"
-
-###################### development - R (end) #############################
-
-###################### development - Python (start) #############################
+###################### development - ML appl (start) #############################
 
 sidebar-python:
   - title: "GO BACK"
@@ -92,9 +52,9 @@ sidebar-python:
   - title: "POST"
     children:
       - title: "디렉토리 탐색"
-        url: "python/directory-search"
+        url: "MLappl/directory-search"
       - title: "데이터 정렬"
-        url: "python/data-sort"
+        url: "MLappl/data-sort"
 
 ###################### development - Python (end) #############################
 
@@ -128,8 +88,8 @@ sidebar-algorithm-search-algorithm:
 
 ###################### data sicence (start) #############################
 sidebar-dataScience:
-  - title: "Intro"
-    url: /dataScience/
+ # - title: "Intro"
+  #  url: /dataScience/
   - title: "Deep Learning"
     url: /book/
   - title: "Reinforcement Learning"
