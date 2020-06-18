@@ -1,8 +1,8 @@
 ---
-title: "Development"
-permalink: /development/
+title: "tools"
+permalink: /tools/
 sidebar:
-  nav: sidebar-development
+  nav: sidebar-tools
 author_profile: false
 header:
   overlay_image: /assets/images/development.jpg

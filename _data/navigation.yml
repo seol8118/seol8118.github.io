@@ -35,7 +35,7 @@ sidebar-touch:
         url: "touch/touch-programming-01-install-01"
       - title: "02. Rstudio 구성"
         url: "touch/touch-programming-01-install-02"
-        
+
 sidebar-touch-programming:
   - title: "GO BACK"
     url: /development/
@@ -235,3 +235,45 @@ sidebar-postsBy:
     url: /tags/
   - title: "Categories"
     url: /categories/
+
+
+###################### tools (start) #############################
+sidebar-tools:
+  - title: "Intro"
+    url: /tools/
+  - title: "Git"
+    url: /Git/
+  - title: "python"
+    url: /python/
+
+
+###################### tools - python (start) #############################
+
+sidebar-python:
+  - title: "GO BACK"
+    url: /tools/
+  - title: "keras"
+    url: /touch_system_contents/
+  - title: "pytorch"
+    children:
+      - title: "01. R언어 및 Rstudio 설치"
+        url: "touch/touch-programming-01-install-01"
+      - title: "02. Rstudio 구성"
+        url: "touch/touch-programming-01-install-02"
+        
+sidebar-touch-programming:
+  - title: "GO BACK"
+    url: /development/
+  - title: "Contents"
+    url: /touch_system_contents/
+  - title: "1 - Install"
+    children:
+      - title: "01. R언어 및 Rstudio 설치"
+        url: "touch/touch-programming-01-install-01"
+      - title: "02. Rstudio 구성"
+        url: "touch/touch-programming-01-install-02"
+
+###################### development - touch (end) #############################
+
+
+###################### development (end) #############################
