@@ -2,11 +2,11 @@
 title: "Rstudio 구성"
 date: 2019-03-05
 category:
-  - R
+  - touch
 tag :
   -
 sidebar:
-  nav: sidebar-r-programming
+  nav: sidebar-touch
 mathjax: "true"
 author_profile: false
 toc: true

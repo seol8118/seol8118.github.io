@@ -6,7 +6,7 @@ category:
 tag :
   - directory search
 sidebar:
-  nav: sidebar-python
+  nav: sidebar-MLappl
 mathjax: "true"
 author_profile: false
 toc: true

@@ -2,11 +2,11 @@
 title: "단일 종류의 데이터"
 date: 2019-03-06
 category:
-  - R
+  - touch
 tag :
   -
 sidebar:
-  nav: sidebar-r-programming
+  nav: sidebar-touch
 mathjax: "true"
 author_profile: false
 toc: true

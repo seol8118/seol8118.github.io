@@ -1,8 +1,8 @@
 ---
 title: "알고리즘 (Algorithm)"
-permalink: /algorithm/
+permalink: /MLappl/
 sidebar:
-  nav: sidebar-algorithm
+  nav: sidebar-MLappl
 author_profile: false
 header:
   overlay_image: /assets/images/development.jpg

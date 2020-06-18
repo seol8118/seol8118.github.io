@@ -1,5 +1,5 @@
 ---
-title: "R 프로그래밍 목차"
+title: "터치시스템 목차"
 permalink: /touch_system_contents/
 sidebar:
   nav: sidebar-touch-system

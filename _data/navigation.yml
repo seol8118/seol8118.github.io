@@ -29,7 +29,13 @@ sidebar-touch:
     url: /development/
   - title: "Touch system"
     url: /touch_system_contents/
-
+  - title: "1 - Install"
+    children:
+      - title: "01. R언어 및 Rstudio 설치"
+        url: "touch/touch-programming-01-install-01"
+      - title: "02. Rstudio 구성"
+        url: "touch/touch-programming-01-install-02"
+        
 sidebar-touch-programming:
   - title: "GO BACK"
     url: /development/
@@ -88,8 +94,8 @@ sidebar-algorithm-search-algorithm:
 
 ###################### data sicence (start) #############################
 sidebar-dataScience:
- # - title: "Intro"
-  #  url: /dataScience/
+  - title: "Intro"
+    url: /dataScience/
   - title: "Deep Learning"
     url: /book/
   - title: "Reinforcement Learning"
