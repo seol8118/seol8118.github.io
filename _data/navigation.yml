@@ -22,6 +22,7 @@ sidebar-development:
   - title: "ML application"
     url: /MLappl/
 
+
 ###################### development - touch (start) #############################
 
 sidebar-touch:
@@ -49,6 +50,22 @@ sidebar-touch-programming:
         url: "touch/touch-programming-01-install-02"
 
 ###################### development - touch (end) #############################
+
+###################### development - trading (start) #############################
+
+sidebar-trading:
+  - title: "GO BACK"
+    url: /development/
+  - title: "Intro"
+    url: /trading/
+  - title: "1 - Install"
+    children:
+      - title: "01. R언어 및 Rstudio 설치"
+        url: "touch/touch-programming-01-install-01"
+      - title: "02. Rstudio 구성"
+        url: "touch/touch-programming-01-install-02"
+
+
 
 ###################### development - ML appl (start) #############################
 
@@ -129,6 +146,50 @@ sidebar-labook:
   - title: "2장. 텐서플로 설치와 주피터 노트북"
     url: "labook/la-ch02"
 
+###################### Object Detectioon (start) #############################
+
+sidebar-od:
+  - title: "GO BACK"
+    url: /mlstudy/
+  - title: "Object Detection"
+    children :
+      - title: "FRCNN"
+        url: /labook/
+
+
+###################### frcnn (start) #############################
+sidebar-labook:
+  - title: "GO BACK"
+    url: /la/
+  - title: "Intro"
+    url: /labook/
+  - title: "1장. 딥러닝과 텐서플로의 만남"
+    url: "labook/la-ch01"
+  - title: "2장. 텐서플로 설치와 주피터 노트북"
+    url: "labook/la-ch02"
+
+
+###################### NLP (start) #############################
+
+sidebar-nlp:
+  - title: "GO BACK"
+    url: /mlstudy/
+  - title: "Natural Language Processing"
+    children :
+      - title: "NLP"
+        url: /labook/
+
+
+###################### nlp_Fast (start) #############################
+sidebar-labook:
+  - title: "GO BACK"
+    url: /la/
+  - title: "Intro"
+    url: /labook/
+  - title: "1장. 딥러닝과 텐서플로의 만남"
+    url: "labook/la-ch01"
+  - title: "2장. 텐서플로 설치와 주피터 노트북"
+    url: "labook/la-ch02"
 
 
 ###################### DL book (start) #############################

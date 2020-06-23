@@ -6,7 +6,7 @@ category:
 tag :
   - object detection
 sidebar:
-  nav: sidebar-od
+  nav: sidebar-frcnn
 mathjax: "true"
 author_profile: false
 toc: true

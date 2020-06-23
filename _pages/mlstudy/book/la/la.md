@@ -1,8 +1,8 @@
 ---
 title: "파이썬과 케라스로 배우는 강화학습"
-permalink: /la/
+permalink: /labook/
 sidebar:
-  nav: sidebar-la
+  nav: sidebar-labook
 author_profile: false
 header:
   overlay_image: /assets/images/dataScience.jpg
