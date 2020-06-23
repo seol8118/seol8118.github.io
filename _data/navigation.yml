@@ -158,7 +158,7 @@ sidebar-od:
 
 
 ###################### frcnn (start) #############################
-sidebar-labook:
+sidebar-frcnn:
   - title: "GO BACK"
     url: /la/
   - title: "Intro"
@@ -181,7 +181,7 @@ sidebar-nlp:
 
 
 ###################### nlp_Fast (start) #############################
-sidebar-labook:
+sidebar-nlpfast:
   - title: "GO BACK"
     url: /la/
   - title: "Intro"
