@@ -255,9 +255,9 @@ sidebar-gtool:
     url: /touch_system_contents/
   - title: "Git blog 만들기"
     children:
-      - title: "01. 기본 환경 설치"
+      - title: "01. 기본 환경 설치 및 블로그 개설"
         url: "gtool/gtool-programming-01-install-01"
-      - title: "02. Rstudio 구성"
+      - title: "02. 새글작성 및 업로드"
         url: "gtool/gtool-programming-01-install-02"
 
 ###################### tools - python (start) #############################

@@ -1,5 +1,5 @@
 ---
-title: "Git 설치"
+title: "Git 설치및 blog 개설하기"
 date: 2020-06-18
 category:
   - gtool
@@ -19,7 +19,7 @@ header:
 comments: true
 ---
 
-> Tools > Git > Git blog > Install
+> Tools > Git > Git blog
 
 #### * 본 글은 Git, Ruby, VScode 를 한 번도 사용해보지 않은 사람을 대상으로 쓰여졌습니다.  
 
@@ -53,7 +53,17 @@ comments: true
 - 다운 받은 jekyll theme을 직접 홈페이지에 접속해서 업로드 해도 되지만 나중에 블로그 관리할 때마다 홈페이지에서 업로드하긴 번거롭기 때문에 앞서 받은 Git 프로그램을 사용할 것이다.
 
 - Git bash 프로그램을 이용해서 다운받은 jekyll 경로로 이동한다.
-- 
+- 다음과 같은 코드를 입력하여 자신의 github repository에 업로드한다.
+
+```bash
+$ git init
+$ git add .
+$ git commit -m "Initial commit"
+$ git remote add origin "https://github.com/ID/ID.github.io"
+$ git push origin master
+```
+- 몇 분후 "https://github.com/ID/ID.github.io" 주소에 접속하여 자신의 테마가 제대로 나오는지 확인한다.
+
 
 
 **주의 사항**
