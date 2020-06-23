@@ -242,13 +242,13 @@ sidebar-tools:
   - title: "Intro"
     url: /tools/
   - title: "Git"
-    url: /gitTool/
+    url: /gtool/
   - title: "python"
     url: /python/
 
-###################### tools - Git (start) #############################
+###################### tools - gtool (start) #############################
 
-sidebar-gitTool:
+sidebar-gtool:
   - title: "GO BACK"
     url: /tools/
   - title: "Git 사용법"
@@ -256,9 +256,9 @@ sidebar-gitTool:
   - title: "Git blog 만들기"
     children:
       - title: "01. 기본 환경 설치"
-        url: "gitTool/gitTool-programming-01-install-01"
+        url: "gtool/gtool-programming-01-install-01"
       - title: "02. Rstudio 구성"
-        url: "gitTool/gitTool-programming-01-install-02"
+        url: "gtool/gtool-programming-01-install-02"
 
 ###################### tools - python (start) #############################
 

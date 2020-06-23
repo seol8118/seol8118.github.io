@@ -2,11 +2,11 @@
 title: "Git 설치"
 date: 2020-06-18
 category:
-  - gitTool
+  - gtool
 tag :
   -
 sidebar:
-  nav: sidebar-gitTool
+  nav: sidebar-gtool
 mathjax: "true"
 author_profile: false
 toc: true

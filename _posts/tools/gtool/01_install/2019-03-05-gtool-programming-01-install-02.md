@@ -2,11 +2,11 @@
 title: "Rstudio 구성"
 date: 2019-03-05
 category:
-  - gitTool
+  - gtool
 tag :
   -
 sidebar:
-  nav: sidebar-Git
+  nav: sidebar-gtool
 mathjax: "true"
 author_profile: false
 toc: true
