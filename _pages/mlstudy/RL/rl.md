@@ -1,8 +1,8 @@
 ---
-title: "Statistics"
-permalink: /statistics/
+title: "Reinforcement Learning"
+permalink: /rl/
 sidebar:
-  nav: sidebar-statistics
+  nav: sidebar-rl
 author_profile: false
 header:
   overlay_image: /assets/images/dataScience.jpg

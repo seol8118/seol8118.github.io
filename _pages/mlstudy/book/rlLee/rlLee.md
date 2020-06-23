@@ -1,8 +1,8 @@
 ---
-title: "3분 딥러닝 텐서플로맛"
-permalink: /3minDL/
+title: "파이썬과 케라스로 배우는 강화학습"
+permalink: /rlLee/
 sidebar:
-  nav: sidebar-3minDL
+  nav: sidebar-rlLee
 author_profile: false
 header:
   overlay_image: /assets/images/dataScience.jpg

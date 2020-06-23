@@ -5,7 +5,7 @@ main:
   - title: "Development"
     url: /development/
   - title: "ML study"
-    url: /dataScience/
+    url: /mlStudy/
   - title: "Tools"
     url: /tools/
   - title: "Posts By"
@@ -92,20 +92,20 @@ sidebar-algorithm-search-algorithm:
 
 ###################### development (end) #############################
 
-###################### data sicence (start) #############################
-sidebar-dataScience:
+###################### mlstudy (start) #############################
+sidebar-mlstudy:
   - title: "Intro"
-    url: /dataScience/
+    url: /mlstudy/
   - title: "Deep Learning"
     url: /book/
   - title: "Reinforcement Learning"
-    url: /statistics/
+    url: /rl/
 
 ###################### book (start) #############################
 
 sidebar-book:
   - title: "GO BACK"
-    url: /dataScience/
+    url: /mlstudy/
   - title: "Book"
     children :
       - title: "[book] Deep learning - Ian Goodfellow"
@@ -179,16 +179,49 @@ sidebar-pythonMLDefinitiveGuide-ch02:
 
 ###################### book (end) #############################
 
-###################### statistics (start) #############################
-sidebar-statistics:
+###################### rl (start) #############################
+sidebar-rl:
   - title: "GO BACK"
-    url: /dataScience/
-  - title: "확률과 통계"
+    url: /mlstudy/
+  - title: "Book"
+    children :
+    - title: "[book] 파이썬과 케라스로 배우는 강화학습 - 이웅원"
+      url: /rlLee/
+    - title: "[book] Reinforcement learning - Sutton"
+      url: /rlSutton/
+  - title: "RL code"
     url: /probability_and_statistics_contents/
+
+
+###################### rl-sutton (start) #############################
+sidebar-rlSutton:
+  - title: "GO BACK"
+    url: /rl/
+  - title: "Intro"
+    url: /rlSutton/
+  - title: "1장. 딥러닝과 텐서플로의 만남"
+    url: "rl/rlSutton-ch01"
+  - title: "2장. "
+    url: "rl/rlSutton-ch02"
+
+###################### rl-sutton (end) #############################
+###################### rl-Lee (start) #############################
+sidebar-rlLee:
+  - title: "GO BACK"
+    url: /rl/
+  - title: "Intro"
+    url: /rlLee/
+  - title: "1장. 딥러닝과 텐서플로의 만남"
+    url: "rl/rlLee-ch01"
+  - title: "2장. "
+    url: "rl/rlLee-ch02"
+
+###################### rl-Lee (end) #############################
+
 
 sidebar-probabilityAndStatistics:
   - title: "GO BACK"
-    url: /statistics/
+    url: /rl/
   - title: "Contents"
     url: /probability_and_statistics_contents/
   - title: "1 - 확률 기초"
@@ -226,7 +259,7 @@ sidebar-probabilityAndStatistics:
         url: "Statistics/stats-PAS-02-RV-PDF-08/"
 ###################### statistics (end) #############################
 
-###################### data sicence (end) #############################
+###################### mlstudy (end) #############################
 
 sidebar-postsBy:
   - title: "Archive"

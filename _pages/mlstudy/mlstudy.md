@@ -1,8 +1,8 @@
 ---
 title: "Machine Learning"
-permalink: /dataScience/
+permalink: /mlstudy/
 sidebar:
-  nav: sidebar-dataScience
+  nav: sidebar-mlstudy
 author_profile: false
 header:
   overlay_image: /assets/images/dataScience.jpg
