@@ -92,16 +92,46 @@ sidebar-algorithm-search-algorithm:
 
 ###################### development (end) #############################
 
-###################### mlstudy (start) #############################
+###################### MLstudy (start) #############################
 sidebar-mlstudy:
   - title: "Intro"
     url: /mlstudy/
+  - title: "Linear Algebra"
+    url: /la/
   - title: "Deep Learning"
     url: /book/
   - title: "Reinforcement Learning"
     url: /rl/
+  - title: "Object Detection"
+    url: /od/
+  - title: "Natural Language Processing"
+    url: /nlp/
 
-###################### book (start) #############################
+###################### LA book (start) #############################
+
+sidebar-la:
+  - title: "GO BACK"
+    url: /mlstudy/
+  - title: "Linear Algebra"
+    children :
+      - title: "[book] 프로그래머를 위한 선형대수 - 히라오카 카즈유키"
+        url: /labook/
+
+
+###################### 선형대수 (start) #############################
+sidebar-labook:
+  - title: "GO BACK"
+    url: /la/
+  - title: "Intro"
+    url: /labook/
+  - title: "1장. 딥러닝과 텐서플로의 만남"
+    url: "labook/la-ch01"
+  - title: "2장. 텐서플로 설치와 주피터 노트북"
+    url: "labook/la-ch02"
+
+
+
+###################### DL book (start) #############################
 
 sidebar-book:
   - title: "GO BACK"

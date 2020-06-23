@@ -2,11 +2,11 @@
 title: "Git 설치및 blog 개설하기"
 date: 2020-06-18
 category:
-  - object detection
+  - gtool
 tag :
-  - object detection
+  -
 sidebar:
-  nav: sidebar-od
+  nav: sidebar-gtool
 mathjax: "true"
 author_profile: false
 toc: true
