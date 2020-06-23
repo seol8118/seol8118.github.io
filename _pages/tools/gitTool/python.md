@@ -1,8 +1,8 @@
 ---
 title: "Python"
-permalink: /Git/
+permalink: /gitTool/
 sidebar:
-  nav: sidebar-Git
+  nav: sidebar-gitTool
 author_profile: false
 header:
   overlay_image: /assets/images/development.jpg

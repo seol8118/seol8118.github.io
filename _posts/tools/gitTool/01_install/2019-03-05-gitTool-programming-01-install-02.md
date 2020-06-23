@@ -2,7 +2,7 @@
 title: "Rstudio 구성"
 date: 2019-03-05
 category:
-  - Git
+  - gitTool
 tag :
   -
 sidebar:
