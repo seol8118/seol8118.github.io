@@ -39,7 +39,7 @@ comments: true
 disqus_shortname: 'disqus_name'
 ```
 - 댓글 기능이 필요한 markdown post 파일에 들어가 처음 layout 설정 부분에 comments: True 로 적어준다. 
-```h
+```bash
 ---
 title: "Git blog 댓글기능 사용하기"
 date: 2020-06-25

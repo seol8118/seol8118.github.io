@@ -1,6 +1,6 @@
 ---
 title: "Git 설치및 blog 개설하기"
-date: 2020-06-18
+date: 2020-06-23
 category:
   - gtool
 tag :
