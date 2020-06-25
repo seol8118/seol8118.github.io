@@ -1,11 +1,11 @@
 ---
 title: "Object Detection"
-permalink: /od/
+permalink: /odTwostage/
 sidebar:
-  nav: sidebar-od
+  nav: sidebar-odTwostage
 author_profile: false
 header:
   overlay_image: /assets/images/dataScience.jpg
   overlay_filter: 0.5
 ---
-Object Detection 정리
+Two stage Object Detection 정리

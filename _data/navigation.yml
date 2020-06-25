@@ -151,22 +151,51 @@ sidebar-od:
     url: /mlstudy/
   - title: "Object Detection"
     children :
-      - title: "FRCNN"
-        url: /labook/
+      - title: "Background"
+        url: /odBackground
+      - title: "Two stage detection frameworks"
+        url: /odTwostage
+      - title: "One stage detection frameworks"
+        url: /odOnestage
 
-
-###################### frcnn (start) #############################
-sidebar-frcnn:
+###################### Background (start) #############################
+sidebar-odBackground:
   - title: "GO BACK"
-    url: /la/
-  - title: "Intro"
-    url: /labook/
-  - title: "1장. 딥러닝과 텐서플로의 만남"
-    url: "labook/la-ch01"
-  - title: "2장. 텐서플로 설치와 주피터 노트북"
-    url: "labook/la-ch02"
+    url: /od/
+  - title: "Object detection 기본지식"
+    url: "object detection/od-intro"
+  - title: "Object detection 기본지식2"
+    url: "object detection/od-intro2"
 
+sidebar-odBackground1:
+  - title: "GO BACK"
+    url: /odBackground/
 
+###################### Two stage detection frameworks (start) #############################
+sidebar-odTwostage:
+  - title: "GO BACK"
+    url: /od/
+  - title: "Object detection 기본지식"
+    url: "object detection/od-intro"
+  - title: "Object detection 기본지식2"
+    url: "object detection/od-intro2"
+
+sidebar-odTwostage1:
+  - title: "GO BACK"
+    url: /odTwostage/
+
+###################### One stage detection frameworks (start) #############################
+sidebar-odOnestage:
+  - title: "GO BACK"
+    url: /od/
+  - title: "Object detection 기본지식"
+    url: "object detection/od-intro"
+  - title: "Object detection 기본지식2"
+    url: "object detection/od-intro2"
+
+sidebar-odOnestage1:
+  - title: "GO BACK"
+    url: /odTwostage/
 ###################### NLP (start) #############################
 
 sidebar-nlp:
