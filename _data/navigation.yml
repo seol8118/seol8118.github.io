@@ -58,12 +58,10 @@ sidebar-trading:
     url: /development/
   - title: "Intro"
     url: /trading/
-  - title: "1 - Install"
-    children:
-      - title: "01. R언어 및 Rstudio 설치"
-        url: "touch/touch-programming-01-install-01"
-      - title: "02. Rstudio 구성"
-        url: "touch/touch-programming-01-install-02"
+  - title: "01. Sytem Trading 기본 환경"
+    url: "trading/trading-01-install-01"
+  - title: "02. 자동 접속"
+    url: "trading/trading-01-install-02"
 
 
 
