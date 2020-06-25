@@ -1,5 +1,5 @@
 ---
-title: "Git blog 를 위한 기본환경 설치"
+title: "System trading "
 date: 2020-06-18
 category:
   - trading
@@ -19,9 +19,9 @@ header:
 comments: true
 ---
 
-> Tools > Git > Git blog > Install
+> Development > Automatic Trading System > Install
 
-### * 본 글은 Git, R, VScode 를 한 번도 사용해보지 않은 사람을 대상으로 쓰여졌습니다.  
+### 최근 이른바 동학개미운동으로 인하여 
 
 
 # 1. Git hub 가입

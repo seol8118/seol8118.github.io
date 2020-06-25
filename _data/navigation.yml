@@ -381,7 +381,10 @@ sidebar-gtool:
         url: "gtool/gtool-programming-01-install-01"
       - title: "02. 새글작성 및 업로드"
         url: "gtool/gtool-programming-01-install-02"
-
+      - title: "03. 댓글기능 적용"
+        url: "gtool/gtool-programming-01-install-03"
+      - title: "04. 카테고리 및 계층 적용"
+        url: "gtool/gtool-programming-01-install-03"
 ###################### tools - python (start) #############################
 
 sidebar-python:
