@@ -177,8 +177,10 @@ sidebar-odBackground1:
 sidebar-odTwostage:
   - title: "GO BACK"
     url: /od/
-  - title: "Object detection 기본지식"
-    url: "object detection/od-intro"
+  - title: "Intro"
+    url: /odTwostage/
+  - title: "RCNN"
+    url: "object detection/od-RCNN"
   - title: "Object detection 기본지식2"
     url: "object detection/od-intro2"
 
