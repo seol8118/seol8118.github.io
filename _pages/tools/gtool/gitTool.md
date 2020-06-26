@@ -5,7 +5,7 @@ sidebar:
   nav: sidebar-gtool
 author_profile: false
 header:
-  overlay_image: /assets/images/development.jpg
+  overlay_image: /assets/images/tools.jpg
   overlay_filter: 0.5
 ---
 

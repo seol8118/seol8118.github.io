@@ -111,7 +111,7 @@ author:
   name             : "Ki-Hyuk Seol"
   avatar           : "/assets/images/seol.jpg"
   # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "web developer and studying data science"
+  bio              : ""
   location         : "Seoul"
   email            :
   links:

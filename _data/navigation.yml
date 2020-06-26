@@ -162,10 +162,12 @@ sidebar-od:
 sidebar-odBackground:
   - title: "GO BACK"
     url: /od/
-  - title: "Object detection 기본지식"
+  - title: "1. History"
     url: "object detection/od-intro"
-  - title: "Object detection 기본지식2"
+  - title: "2. Dataset"
     url: "object detection/od-intro2"
+  - title: "3. Evaluation Criteria"
+    url: "object detection/od-intro3"
 
 sidebar-odBackground1:
   - title: "GO BACK"

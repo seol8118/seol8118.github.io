@@ -1,6 +1,6 @@
 ---
 title: "Git 설치및 blog 개설하기"
-date: 2020-06-23
+date: 2020-06-20
 category:
   - gtool
 tag :
@@ -14,7 +14,7 @@ toc_label: "Contents"
 toc_icon: "cog"
 toc_sticky: true
 header:
-  overlay_image: /assets/images/r.jpg
+  overlay_image: /assets/images/tools.jpg
   overlay_filter: 0.5
 comments: true
 ---
