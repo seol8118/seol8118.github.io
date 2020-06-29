@@ -180,9 +180,15 @@ sidebar-odTwostage:
   - title: "Intro"
     url: /odTwostage/
   - title: "RCNN"
-    url: "object detection/od-RCNN"
-  - title: "Object detection 기본지식2"
-    url: "object detection/od-intro2"
+    url: "object detection/od-rcnn"
+  - title: "SPPNet"
+    url: "object detection/od-SPPNet"
+  - title: "Fast RCNN"
+    url: "object detection/od-fastRCNN"
+  - title: "Faster RCNN"
+    url: "object detection/od-fasterRCNN"
+  - title: "RFCN"
+    url: "object detection/od-RFCN"
 
 sidebar-odTwostage1:
   - title: "GO BACK"
