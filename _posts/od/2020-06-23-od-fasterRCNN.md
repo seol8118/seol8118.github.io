@@ -62,7 +62,7 @@ Faster RCNN은 region proposal을 CNN으로 대체하며 mAP 성능을 올렸을
 
 
 ## 3. Faster RCNN 단점
- - Region proposal까지 CNN에 적용하여 성능향상을 가져왔지만 ROI가 이미지마다 수백번씩 진행되어야 한다는 점이 문제점으로 거론되었다.
+ - Region proposal까지 CNN에 적용하여 성능향상을 가져왔지만 이미지마다 진행된 수백 수천 개의 ROI에 대하여 sub network를 통과시켜야 한다는 점이 문제점으로 거론되었다.
 
 
 
