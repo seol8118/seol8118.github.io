@@ -191,7 +191,10 @@ sidebar-odTwostage:
     url: "object detection/od-RFCN"
   - title: "Mask RCNN "
     url: "object detection/od-maskRCNN"
-
+  - title: "Cascade RCNN "
+    url: "object detection/od-cascadeRCNN"
+  - title: "Light Head RCNN "
+    url: "object detection/od-lightheadRCNN"
 sidebar-odTwostage1:
   - title: "GO BACK"
     url: /odTwostage/
