@@ -26,7 +26,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
 </script>
 
 # Mask RCNN
-- mask RCNN 은 그동안의 object detectino model이 물체를 box로만 예측하던 것에서 벗어나 pixel단위로 segmentation까지 하여 object detection을 가능하도록 만들었다.
+- mask RCNN 은 그동안의 object detection model이 물체를 box로만 예측하던 것에서 벗어나 pixel단위로 segmentation까지 하여 object detection을 가능하도록 만들었다.
 
 ## 1. Mask RCNN 동작
 

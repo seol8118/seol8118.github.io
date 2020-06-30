@@ -51,7 +51,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
 
 - 아무래도 classifier를 여러개를 쓰다보니 기존 base 구조보다 속도저하가 불가피한데 논문에서는 RPN에 비하면 computation cost가 비교적 작은 수치라고 한다. 아래는 training과 test시 속도를 비교한 표이다.
 
-<center><img src="/assets/images/od/cascadeRCNNT01.jpg" ></center>
+<center><img src="/assets/images/od/cascadeRCNNT06.jpg" ></center>
 
 
 

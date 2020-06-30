@@ -32,7 +32,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
 
 <center><img src="/assets/images/od/survey13-2.jpg" ></center>
 
-### RPN은 그림과 같이 feature map의 한 포인트에서 anchor라고 불리는 k개의 서로다른 크기와 비율을 가진 reference box를 만들고 anchor에 물체가 존재할 확률과 anchor box를 regression 해주는 2개의 output layer로 구성하여 training 한다. 구체적인 동작은 다음과 같다.
+ - RPN은 그림과 같이 feature map의 한 포인트에서 anchor라고 불리는 k개의 서로다른 크기와 비율을 가진 reference box를 만들고 anchor에 물체가 존재할 확률과 anchor box를 regression 해주는 2개의 output layer로 구성하여 training 한다. 구체적인 동작은 다음과 같다.
 
 <!--
 <center><img src="/assets/images/od/fasterRCNN03.jpg" ></center>
