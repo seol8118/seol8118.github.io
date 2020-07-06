@@ -203,10 +203,18 @@ sidebar-odTwostage1:
 sidebar-odOnestage:
   - title: "GO BACK"
     url: /od/
-  - title: "Object detection 기본지식"
-    url: "object detection/od-intro"
-  - title: "Object detection 기본지식2"
-    url: "object detection/od-intro2"
+  - title: "Intro"
+    url: /odOnestage/
+  - title: "detectorNet"
+    url: "object detection/od-detectorNet"
+  - title: "overfeat"
+    url: "object detection/od-overFeat"
+  - title: "YOLO"
+    url: "object detection/od-YOLO"
+  - title: "YOLOv2 and YOLO9000"
+    url: "object detection/od-YOLOv2"
+  - title: "SSD"
+    url: "object detection/od-SSD"
 
 sidebar-odOnestage1:
   - title: "GO BACK"
@@ -317,6 +325,12 @@ sidebar-rl:
   - title: "GO BACK"
     url: /mlstudy/
   - title: "Book"
+    children :
+    - title: "[book] 파이썬과 케라스로 배우는 강화학습 - 이웅원"
+      url: /rlLee/
+    - title: "[book] Reinforcement learning - Sutton"
+      url: /rlSutton/
+  - title: "RL 논문"
     children :
     - title: "[book] 파이썬과 케라스로 배우는 강화학습 - 이웅원"
       url: /rlLee/
