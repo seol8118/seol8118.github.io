@@ -9,7 +9,7 @@ header:
   overlay_filter: 0.5
 ---
 
-#### Deeplearning 이 object detection 에 적용되기 시작하면서 다음과 같이 다양한 모델들이 제시되었다.
+#### Deep Learning 이 object detection 에 적용되기 시작하면서 다음과 같이 다양한 모델들이 제시되었다.
 
 <center><img src="/assets/images/od/survey11.jpg" ></center>
 

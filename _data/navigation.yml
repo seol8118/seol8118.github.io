@@ -179,21 +179,21 @@ sidebar-odTwostage:
     url: /od/
   - title: "Intro"
     url: /odTwostage/
-  - title: "RCNN"
+  - title: "R-CNN"
     url: "object detection/od-rcnn"
   - title: "SPPNet"
     url: "object detection/od-SPPNet"
-  - title: "Fast RCNN"
+  - title: "Fast R-CNN"
     url: "object detection/od-fastRCNN"
-  - title: "Faster RCNN"
+  - title: "Faster R-CNN"
     url: "object detection/od-fasterRCNN"
   - title: "RFCN"
     url: "object detection/od-RFCN"
-  - title: "Mask RCNN "
+  - title: "Mask R-CNN "
     url: "object detection/od-maskRCNN"
-  - title: "Cascade RCNN "
+  - title: "Cascade R-CNN "
     url: "object detection/od-cascadeRCNN"
-  - title: "Light Head RCNN "
+  - title: "Light Head R-CNN "
     url: "object detection/od-lightheadRCNN"
 sidebar-odTwostage1:
   - title: "GO BACK"
@@ -215,7 +215,8 @@ sidebar-odOnestage:
     url: "object detection/od-YOLOv2"
   - title: "SSD"
     url: "object detection/od-SSD"
-
+  - title: "YOLOv3"
+    url: "object detection/od-YOLOv3"
 sidebar-odOnestage1:
   - title: "GO BACK"
     url: /odTwostage/
