@@ -215,10 +215,10 @@ sidebar-odOnestage:
     url: "object detection/od-YOLOv2"
   - title: "SSD"
     url: "object detection/od-SSD"
-  - title: "YOLOv3"
-    url: "object detection/od-YOLOv3"
   - title: "DSSD"
     url: "object detection/od-DSSD"
+  - title: "YOLOv3"
+    url: "object detection/od-YOLOv3"
 sidebar-odOnestage1:
   - title: "GO BACK"
     url: /odTwostage/
