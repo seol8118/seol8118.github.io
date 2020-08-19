@@ -64,6 +64,11 @@ $ git push origin master
 ```
 - 몇 분후 "https://github.com/ID/ID.github.io" 주소에 접속하여 자신의 테마가 제대로 나오는지 확인한다.
 
+- 다른 local 에서 작업할 때에는 다음과 같이 서버에서 변경된 부분을 업데이트 한 뒤 작업 해야 한다.
+```bash
+$ git pull origin master
+```
+
 
 
 **주의 사항**

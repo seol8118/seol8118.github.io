@@ -327,6 +327,9 @@ sidebar-pythonMLDefinitiveGuide-ch02:
 sidebar-rl:
   - title: "GO BACK"
     url: /mlstudy/
+  - title: "Intro"
+    url: /rl/rl-intro
+
   - title: "Book"
     children :
     - title: "[book] 파이썬과 케라스로 배우는 강화학습 - 이웅원"
@@ -434,8 +437,8 @@ sidebar-tools:
 sidebar-gtool:
   - title: "GO BACK"
     url: /tools/
-  - title: "Git 사용법"
-    url: /touch_system_contents/
+#  - title: "Git 사용법"
+    #url: /touch_system_contents/
   - title: "Git blog 만들기"
     children:
       - title: "01. 기본 환경 설치 및 블로그 개설"
@@ -444,8 +447,8 @@ sidebar-gtool:
         url: "gtool/gtool-programming-01-install-02"
       - title: "03. 댓글기능 적용"
         url: "gtool/gtool-programming-01-install-03"
-      - title: "04. 카테고리 및 계층 적용"
-        url: "gtool/gtool-programming-01-install-03"
+     # - title: "04. 카테고리 및 계층 적용"
+      #  url: "gtool/gtool-programming-01-install-03" 
 ###################### tools - python (start) #############################
 
 sidebar-python:
