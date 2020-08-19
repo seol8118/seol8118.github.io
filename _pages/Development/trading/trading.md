@@ -1,5 +1,5 @@
 ---
-title: "Python"
+title: "Trading system"
 permalink: /trading/
 sidebar:
   nav: sidebar-trading
