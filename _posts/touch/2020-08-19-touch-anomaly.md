@@ -19,52 +19,47 @@ header:
 comments: true
 ---
 
-> Development > Anomaly Detection based Touch
+> Development > Touch Application > Anomaly Detection based Touch
 
 <script type="text/javascript" 
 src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
 </script>
 
-# Cascade R-CNN
-- 그 동안 object detection의 모델이 하나의 detector를 가지고 판단을 했다면 Cascade RCNN은 이름과 같이 detector를 여러번 쌓아서 판단을 하도록하여 성능을 개선시키겠다는 논문이다.
+## 1. Anomaly Detection based Touch
 
-## 1. Cascade R-CNN 동작
+- SVM based Touch System 이 기존 터치 방식에 비해서는 굉장히 많은 이점들을 가지고 있지만 터치, 비터치, 그리고 스타일러스까지 총 3가지 data에 대해 training을 시켜주어야 했다. 터치와 비터치의 경우 하나의 터치 시스템에서는 거의 일정하게 동작을 하지만 스타일러스의 경우 output 파형의 voltage frequency에 따라서 새롭게 training 해주어야 정확한 동작이 가능하다.
 
-<center><img src="/assets/images/od/cascadeRCNN03.jpg" ></center>
+- 이러한 문제는 Machine learning에서 Auto-encoder 모델을 사용하여 해결할 수 있다. Auto-encoder는 Input 과 Output 이 동일하며 중간의 hidden layer의 뉴런 수를 input layer보다 작게 해서 데이터의 차원을 줄인 다음 다시 원래의 Input을 복원해내는 network이다. 이렇게 하면 중간의 hidden layer는 input의 특징을 가장 잘 나타낼 수 있는 feature 로서 구성될 것이다.
 
-[<center>Source</center>](https://arxiv.org/pdf/1712.00726.pdf)
+<center><img src="/assets/images/touch/anomaly1.jpg" width="60%"  ></center>
+[<center>Source</center>](https://onlinelibrary.wiley.com/doi/full/10.1002/jsid.921)
 
-- 그림 (a)와 같이 기존의 faster R-CNN에서는 Image 가 Conv 네트워크를 통과하고 RPN에서 나온 region에 따라 pooling을 해준 뒤 하나의 classifier가 물체를 detect하는 방식이었다.
+- 이제 이러한 구조의 auto encoder를 가지고 어떻게 stylus를 training 시키지 않고 구분이 가능해지는지 살펴보자. 위 그림은 제안하는 방식의 auto-encoder 구조이다. 먼저 encoder (Finger-Touch Detection) 부분은 터치와 비터치 데이터 sequence와 그에 해당하는 label을 가지고 classification 문제로 training 시켜준다. 이어서 decoder (Sequence Generation) 부분에서는 encoder로 부터 나온 출력을 받아 Input data를 복원하도록 training을 시킨다. 결과적으로 auto-encoder의 model은  터치, 비터치와 그에 따른 reconstructed sequence 사이의 error가 최소화 되도록 훈련된다. 이 때 만약 Input에 stylus의 sequence가 들어간다면 error가 굉장히 크게 나올 것이며 그렇게 나온 Reconstruction Error를 가지고 stylus의 training 없이 구분이 가능해지는 것이다. 
 
-- 그림 (b) 는 (a) 와 training과정은 동일하지만 test시에 처음 만들어낸 BB를 다시 동일한 classifier에 넣는 과정을 반복하여 좀 더 정확한 task를 수행하도록 고안된 구조이다. 실제로 성능향상을 보여주기는 하지만 3번 이상에서는 큰 의미가 없었고 극적인 효과는 없었다고 한다.
-
-
-- 그림 (c) 는 classifier를 하나만 쓰는 것이 아니라 여러개를 각각 다른 IOU기준으로 training 한 뒤에 test시 모든 결과물을 ensemble 하는 방식이다. 성능향상에 도움을 주었으나 BB proposal 개선에는 한계가 있었다.
-
-- 제안하는 Cascade R-CNN은 그림 (d) 와 같은 구조로 이전의 classifier에서 예측한 BB를 다음 classifier로 넘겨주어 여러개의 서로다른 IOU 기준으로 training 된 classifier를 쌓아 예측하는 구조이다. 이 때 classifier는 뒷 단으로 갈수록 높은 기준의 IoU를 사용한다. 이렇게 되면 classification 성능 뿐 아니라 BB 값까지 정확도를 높일 수 있다고 한다. 
+<center><img src="/assets/images/touch/anomaly2.jpg" width="60%"  ></center>
+[<center>Source</center>](https://onlinelibrary.wiley.com/doi/full/10.1002/jsid.921)
 
 
+- 정리하자면 위 표와 같이 3가지 경우에 대한 최종 decision이 이루어 진다. Reconstruction Error로부터 Stylus-touch를 판단하고 그렇지 않은 경우에는 Encoder (Finger-Touch Detection) 에서 나온 classification 결과로 부터 최종 decision이 가능하게 된다.
 
-## 2. Cascade R-CNN 결과
+## 2. Anomaly Detection based Touch 결과
 
-- Cascade를 적용시킨 결과 아래와 같이 향상된 mAP를 보였다.
+<center><img src="/assets/images/touch/anomaly3.jpg" width="60%"  ></center>
+[<center>Source</center>](https://onlinelibrary.wiley.com/doi/full/10.1002/jsid.921)
 
-<center><img src="/assets/images/od/cascadeRCNNT01.jpg" ></center>
+- 위 그래프는 3가지 경우의 Sequence 각각 100만개에 따른 Reconstruction Error를 plot 한 것이다. Training 시킨 No-touch 와 Finger-touch 는 error가 작게 나오는 것을 확인할 수 있고 Stylus-touch는 error 가 커지는 것을 확인할 수 있다.
 
-[<center>Source</center>](https://arxiv.org/pdf/1712.00726.pdf)
+<center><img src="/assets/images/touch/anomaly4.jpg"   ></center>
 
-- 아무래도 classifier를 여러개를 쓰다보니 기존 base 구조보다 속도저하가 불가피한데 논문에서는 RPN에 비하면 computation cost가 비교적 작은 수치라고 한다. 아래는 training과 test시 속도를 비교한 표이다.
+- 앞선 그래프로 부터 SNR을 구하여 이전 SVM 방식과 비교해보면 0.27dB 정도 낮게 나오지만 큰 performance의 차이는 없는 것을 확인할 수 있다. 반면 parameter의 경우 SVM 방식에서 400개가 사용되었지만 Anomaly detection 방식에서는 단 16개로 computation cost를 굉장히 낮추었다.
 
-<center><img src="/assets/images/od/cascadeRCNNT06.jpg" ></center>
+- Anomaly detection 방식을 통해 stylus training 과정을 없앴을 뿐아니라 SVM 방식과 비슷한 SNR을 유지하면서 hardware complexity를 대폭 낮출 수 있었다. 
 
-[<center>Source</center>](https://arxiv.org/pdf/1712.00726.pdf)
 
 ## Reference
-\[1]: [Deep Learning for Generic Object Detection: A Survey](https://doi.org/10.1007/s11263-019-01247-4)
+\[1]: [SVM based Touch Communication](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8930472)
 
-\[2]: [Cascade R-CNN 논문](https://arxiv.org/pdf/1712.00726.pdf)
-
-
+\[2]: [Anomaly Detection based Touch](https://onlinelibrary.wiley.com/doi/full/10.1002/jsid.921)
 
 
 

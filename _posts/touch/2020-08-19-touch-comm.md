@@ -19,58 +19,49 @@ header:
 comments: true
 ---
 
-> Development > Touch Communication
+> Development > Touch Application > SVM based Touch Communication
 
 <script type="text/javascript" 
 src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
 </script>
 
+## 1. SVM based Touch Communication
 
-## 1. SVM based touch 원리
+- 기존 capacitor에 charge를 축적한 뒤 threshold level로 터치 여부를 판단하는 대신 SVM based touch system을 적용하면 추가적인 sensing layer 없이도 팜리젝션이 가능했다.
 
-- 앞서 기존의 stylus들의 문제점을 살펴보았다. 지금부터 설명하는 방식을 사용하면 추가적인 layer 없이 기존 터치 시스템을 활용하면서 팜리젝션을 가능하게 만들수 있다.
+- 그렇다면 이러한 시스템을 사용하여 단순히 필기, 그림이외의 다른 용도로 사용할 수 있는 방법을 생각해보자. 터치 디바이스에서 필기를 하다가 스타일러스를 통해 특정한 데이터를 서로 주고 받을 수 있다면 굉장히 유용해질 것이다. 
 
-- 이전에 터치 시스템의 SNR을 높이기 위해 Tx pulse를 여러번 주어 charge amplifier의 feedback capacitor에 charge를 쌓은 후 터치를 판단하는 방식이 주로 사용되고 있음을 보았다. 
+<center><img src="/assets/images/touch/svmComm1.jpg" width="67%"  ></center>
+[<center>Source</center>](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8930472)
 
-- 이러한 기존 방식을 조금 변형해보자. feedback capacitor에 charge를 계속 쌓는 대신 매 pulse 마다 charge amplifier의 output을 ADC sampling 하여 sequence로 저장하고 이것을 machine learning algorithm을 통해 분석하면 터치 여부를 판단할 수 있게 된다.
+- 이 전에도 이와 같은 연구가 이루어졌지만 일반적인 터치 시스템에서는 데이터를 전송할 때 터치와 비터치를 반복하며 bit 단위로 전송이 가능했다. 또한 일반적인 터치와 구분을 하기 위해 위 그림과 같이 Initial Code 와 Terminal Code가 필요했다. 이로인해 데이터 전송속도가 굉장히 낮은 수준이었으면 손이 터치가 되었을 경우 Initial code와 혼동될 여지가 있다.
 
-- 이 방식의 장점은 기존 방식과 같이 signal을 누적함으로써 정확도를 높이는 동시에 터치와 비터치와는 다른 sequence를 가지는 stylus를 만들어주면 추가적인 layer 없이도 팜리젝션이 가능게끔 만들 수 있다.
+<center><img src="/assets/images/touch/svmComm2.jpg" width="60%"  ></center>
+[<center>Source</center>](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8930472)
 
-## 2. SVM based touch 동작
+- 반면 SVM based Touch system에서는 터치와 비터치뿐 아니라 스터일러스 까지 3가지의 경우를 구분할 수 있다. 따라서 위 그림과 같이 Initial code와 Terminal Code에 stylus touch (2) 를 넣어주게 되면 실제 터치시스템에서는 0(비터치) 과 1(터치)의 경우만 존재하기 때문에 이와 구분하기 위해 필요했던 긴 code를 2 trits로 바꿀 수 있다. 따라서 기존 방식보다 훨씬 더 빠른 데이터 전송이 가능하며 보다 손이 터치가 되는 경우에도 robust한 시스템을 구축할 수 있다.
 
-<center><img src="/assets/images/touch/svm1.jpg" ></center>
+## 2. SVM based Touch Communication 결과
 
-- 위 그림은 비터치, 터치, 스타일러스 터치에 대한 charge amplifier의 output을 나타낸 파형이다.
+<center><img src="/assets/images/touch/svmComm3.jpg" ></center>
+[<center>Source</center>](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8930472)
 
-- V<sub>Tx</sub> 에 따라 V<sub>OUT-NT</sub> 와 V<sub>OUT-T</sub> 는 앞서 살펴본대로 output 파형이 출력된다.
+- 위 그림은 비터치(0), 터치(1), 스타일러스 터치(2) 에 대한 V<sub>Tx</sub>, Data, V<sub>ST</sub> (스타일러스 파형) 을 나타낸 것이다.
 
-- 이 때, V<sub>Tx</sub> 보다 높은 frequency를 가지고 free running 파형을 stylus를 통해 전달한다고 하면 V<sub>OUT-ST</sub> 터치와 비터치때와는 다르게 ADC sampling이 터치와 비터치 사이에서 random하게 이루어 지는 것을 확인할 수 있다.
+<center><img src="/assets/images/touch/svmComm4.jpg" ></center>
+[<center>Source</center>](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8930472)
 
-<center><img src="/assets/images/touch/svm2.jpg" ></center>
+- 앞선 파형의 time 축을 길게 보면 다음 그림과 같다. 각각 Initial Code, Data, Terminal Code 에 대한 analog 파형을 캡처한 사진이다. 의도한 바와 같이 정상적으로 동작하며 구분가능한 것을 확인할 수 있다.
 
-- ADC sampling point만 모으게 되면 digital sequence가 형성되며 이것의 모양은 위 그림과 같다. 비터치는 낮은 level에서, 터치는 높은 level에서 일정하게 나오며 stylus는 그 사이에서 random하게 나온다.
+<center><img src="/assets/images/touch/svmComm5.jpg" ></center>
+[<center>Source</center>](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8930472)
 
-- 이 3가지 class를 구분하는 것은 machine learning algorithm에서는 굉장히 쉬운 문제이다. 따라서 classic하면서도 강력한 support vector machine을 적용하였다.
+- 마지막으로 실제 어플리케이션을 만들어 실험한 결과이다. Text 전송, Image 전송에 대해 제대로 동작하는 것을 볼 수 있으며 stylus 끼리 구분도 가능하게끔 만들 수 있다.
 
-<center><img src="/assets/images/touch/svm3.jpg" ></center>
-
-- Support vector machine은 위그림과 같이 두 가지 class가 있을 때 두개의 class를 가장 잘 구분할 수 있는 support를 찾아 hyperplane을 구성하고 이것을 기준으로 class를 구분하게 된다.
-
-<center><img src="/assets/images/touch/svm4.jpg" ></center>
-
-- 이 때 기본적으로 SVM은 binary classifier 이기 때문에 3가지의 class를 구분하기 위해 one-versus-the-rest 방식으로 하나의 class와 나머지를 구분하는 과정을 3번 진행하고 마지막 rating 과정을 거쳐 classification이 이루어진다. 
-
-- 이로써 추가적인 layer 없이 기존 터치 시스템을 활용하면서 팜리젝션을 가능하게끔 만들수 있다.
-
-## 3. SVM based touch 결과
-<center><img src="/assets/images/touch/svm5.jpg" ></center>
-
-- 위와 같이 Mutual capacitive touch panel, connector board, level shifter, PSoC, Raspberry Pi 보드를 이용하여 터치시스템과 스타일러스를 구성하였고 구체적인 스펙을 함께 나타내었다.
-
-- 실험결과 Tip voltage가 3V일 때 3x10<sup>-6</sup> 보다 작은 에러를 기록하였다.
 
 ## Reference
-\[1]: S. Ko, H. Shin, J. Lee, H. Jang, B.-C. So, I. Yun, and K. Lee, “Low Noise Capacitive Sensor for Multi-touch Mobile Handset’s Applications,” IEEE Asian Solid-State Circuits Conference, 4-3 (2010).
+\[1]: [SVM based Touch Communication](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8930472)
+
 
 
 
