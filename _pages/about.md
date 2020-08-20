@@ -88,43 +88,43 @@ header:
 
 
 ## Journal 
-• "Active stylus‐touch discrimination scheme based on anomaly detection algorithm," Ki‐Hyuk Seol, Seungjun Park, Junhee Lee, and Hyoungsik Nam, Journal of the Society for Information Display, 2020.
+• "Active stylus‐touch discrimination scheme based on anomaly detection algorithm," **Ki‐Hyuk Seol**, Seungjun Park, Junhee Lee, and Hyoungsik Nam, Journal of the Society for Information Display, 2020.
 
-• "A Contact-Based Data Communication Technique Using Capacitive Touch Screen Panel and Support Vector Machine Classifier," Ki-Hyuk Seol, Seungjun Park, and Hyoungsik Nam, IEEE Access, 2019.
+• "A Contact-Based Data Communication Technique Using Capacitive Touch Screen Panel and Support Vector Machine Classifier," **Ki-Hyuk Seol**, Seungjun Park, and Hyoungsik Nam, IEEE Access, 2019.
 
-• "Finger and stylus discrimination scheme based on capacitive touch screen panel and support vector machine classifier," Ki-Hyuk Seol, Seungjun Park, Seok-Jeong Song and Hyoungsik Nam, Japanese Journal of Applied Physics, 2019.
+• "Finger and stylus discrimination scheme based on capacitive touch screen panel and support vector machine classifier," **Ki-Hyuk Seol**, Seungjun Park, Seok-Jeong Song and Hyoungsik Nam, Japanese Journal of Applied Physics, 2019.
 
-• "Simultaneous Emission AC-OLED Pixel Circuit for Extended Lifetime of OLED Display," Ki-Hyuk Seol, Young In Kim, Seungjun Park, and Hyoungsik Nam, IEEE Journal of the Electron Devices Society, 2018.
+• "Simultaneous Emission AC-OLED Pixel Circuit for Extended Lifetime of OLED Display," **Ki-Hyuk Seol**, Young In Kim, Seungjun Park, and Hyoungsik Nam, IEEE Journal of the Electron Devices Society, 2018.
 
-• "Organic Interface Engineering for Stable Green PHOLEDs through an Ultrathin Interface Tunneling Layer," So‐Ra Park, Dong A Ahn, Ki‐Hyuk Seol, Sena Yang, Jeong Won Kim, Raju Lampande, Hyoungsik Nam, and Min Chul Suh, Advanced Materials Interfaces, 2018.
+• "Organic Interface Engineering for Stable Green PHOLEDs through an Ultrathin Interface Tunneling Layer," So‐Ra Park, Dong A Ahn, **Ki‐Hyuk Seol**, Sena Yang, Jeong Won Kim, Raju Lampande, Hyoungsik Nam, and Min Chul Suh, Advanced Materials Interfaces, 2018.
 
 ## Patent
-• "스타일러스 펜을 이용하는 터치 시스템 및 이를 이용한 터치 검출 방법," 설기혁, 남형식, 공개특허 (10-2019-0137269)
+• "스타일러스 펜을 이용하는 터치 시스템 및 이를 이용한 터치 검출 방법," **설기혁**, 남형식, 공개특허 (10-2019-0137269)
 
-• "선택적 저전력모드를 구동하는 터치 검출 장치 및 방법," 설기혁, 남형식, 공개특허 (10-2019-0000471)
+• "선택적 저전력모드를 구동하는 터치 검출 장치 및 방법," **설기혁**, 남형식, 공개특허 (10-2019-0000471)
 
 ## Conference
-• "Machine-Learning Approaches to Active Stylus for Capacitive Touchscreen Panel Applications,” Hyoungsik Nam, Ki-Hyuk Seol, and Seungjun Park, SID, Virtual Conference, 2020.
+• "Machine-Learning Approaches to Active Stylus for Capacitive Touchscreen Panel Applications,” Hyoungsik Nam, **Ki-Hyuk Seol**, and Seungjun Park, SID, Virtual Conference, 2020.
 
-• "Reduced Resolution Driving  Scheme  for  High-Resolution  Immersive  Displays,” Seungjun Park, Young In Kim, Ki-Hyuk Seol, Seok-Jeong Song, Jina Bae, and Hyoungsik Nam, IDW, Japan, 2019.
+• "Reduced Resolution Driving  Scheme  for  High-Resolution  Immersive  Displays,” Seungjun Park, Young In Kim, **Ki-Hyuk Seol**, Seok-Jeong Song, Jina Bae, and Hyoungsik Nam, IDW, Japan, 2019.
 
-• "Pixel compensation algorithm for local dimming LCD of quantum-dot backlight using convolutional neural network," Seok-Jeong Song, Young In Kim, Ki-Hyuk Seol, Seungjun Park, Jina Bae, and Hyoungsik Nam, IMID, Gyeongju, Korea, 2019.
+• "Pixel compensation algorithm for local dimming LCD of quantum-dot backlight using convolutional neural network," Seok-Jeong Song, Young In Kim, **Ki-Hyuk Seol**, Seungjun Park, Jina Bae, and Hyoungsik Nam, IMID, Gyeongju, Korea, 2019.
 
-• "Support vector Machine (SVM) Based Stylus Touch Screen Panel," Ki-Hyuk Seol, Seungjun Park, Seok-Jeong Song, Young In Kim, and Hyoungsik Nam, IDW, Japan, 2018.
+• "Support vector Machine (SVM) Based Stylus Touch Screen Panel," **Ki-Hyuk Seol**, Seungjun Park, Seok-Jeong Song, Young In Kim, and Hyoungsik Nam, IDW, Japan, 2018.
 
-• "Multi-Output LTPS TFT Shift Register with Node Sharing Structure” Young In Kim,Seungjun  Park,  Ki-Hyuk Seol,  Seok-Jeong  Song,  and  Hyounsik  Nam, IDW, Japan, 2018.
+• "Multi-Output LTPS TFT Shift Register with Node Sharing Structure” Young In Kim,Seungjun  Park,  **Ki-Hyuk Seol**,  Seok-Jeong  Song,  and  Hyounsik  Nam, IDW, Japan, 2018.
 
-• "TFT Leaking Modeling based on Flicker Measurement," Dowon Kim, Seok-Jeong Song, Ki-Hyuk Seol, Young In Kim, Seungjun Park, Jae Hoon Lee, Jai-Hyun Koh, Heendol Kim, Soo-Yeon Lee, Gyu-Su Lee, and Hyoungsik Nam, IMID, 2018.
+• "TFT Leaking Modeling based on Flicker Measurement," Dowon Kim, Seok-Jeong Song, **Ki-Hyuk Seol**, Young In Kim, Seungjun Park, Jae Hoon Lee, Jai-Hyun Koh, Heendol Kim, Soo-Yeon Lee, Gyu-Su Lee, and Hyoungsik Nam, IMID, 2018.
 
-• "PMNet: passive matrix electrochromic display driving scheme using neural networks," Seok-Jeong Song, Ki-Hyuk Seol, and Hyoungsik Nam, SID, Los Angeles, CA, 2018.
+• "PMNet: passive matrix electrochromic display driving scheme using neural networks," Seok-Jeong Song, **Ki-Hyuk Seol**, and Hyoungsik Nam, SID, Los Angeles, CA, 2018.
 
-• "Robust shift register circuit in a-Si TFT backplane for in-cell touch application," Jeongrim Seo, Seok-Jeong Song, Dowon Kim, Ki-Hyuk Seol, and Hyoungsik Nam, IMID, Busan, Korea, 2017.
+• "Robust shift register circuit in a-Si TFT backplane for in-cell touch application," Jeongrim Seo, Seok-Jeong Song, Dowon Kim, **Ki-Hyuk Seol**, and Hyoungsik Nam, IMID, Busan, Korea, 2017.
 
-• "A Novel Capacitive Touch Sensing Circuit for Low Power Application," Ki-Hyuk Seol, Seok-Jeong Song, Jeongrim Seo, and Hyoungsik Nam, IDW, Japan, 2016.
+• "A Novel Capacitive Touch Sensing Circuit for Low Power Application," **Ki-Hyuk Seol**, Seok-Jeong Song, Jeongrim Seo, and Hyoungsik Nam, IDW, Japan, 2016.
 
-• "VLID: visible light identification system using smartphone for door lock application," Seok-Jeong Song, Dowon Kim, Jeongrim Seo, Ki-Hyuk Seol, and Hyoungsik Nam, IMID, Jeju, Korea, 2016.
+• "VLID: visible light identification system using smartphone for door lock application," Seok-Jeong Song, Dowon Kim, Jeongrim Seo, **Ki-Hyuk Seol**, and Hyoungsik Nam, IMID, Jeju, Korea, 2016.
 
-• "Electrochromic display driving scheme for high dynamic range image capture," Seok-Jeong Song, Dowon Kim, Jeongrim Seo, Ki-Hyuk Seol, and Hyoungsik Nam, APCCAS, Jeju, Korea, 2016.
+• "Electrochromic display driving scheme for high dynamic range image capture," Seok-Jeong Song, Dowon Kim, Jeongrim Seo, **Ki-Hyuk Seol**, and Hyoungsik Nam, APCCAS, Jeju, Korea, 2016.
 
 
 

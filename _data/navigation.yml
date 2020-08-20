@@ -19,8 +19,8 @@ sidebar-development:
     url: /touch/
   - title: "Automatic trading system"
     url: /trading/
-  - title: "ML application"
-    url: /MLappl/
+  # - title: "ML application"
+  #   url: /MLappl/
 
 
 ###################### development - touch (start) #############################
@@ -58,10 +58,10 @@ sidebar-trading:
     url: /development/
   - title: "Intro"
     url: /trading/
-  - title: "01. Sytem Trading 기본 환경"
-    url: "trading/trading-01-install-01"
-  - title: "02. 자동 접속"
-    url: "trading/trading-01-install-02"
+  # - title: "01. Sytem Trading 기본 환경"
+  #   url: "trading/trading-01-install-01"
+  # - title: "02. 자동 접속"
+  #   url: "trading/trading-01-install-02"
 
 
 
@@ -111,16 +111,16 @@ sidebar-algorithm-search-algorithm:
 sidebar-mlstudy:
   - title: "Intro"
     url: /mlstudy/
-  - title: "Linear Algebra"
-    url: /la/
-  - title: "Deep Learning"
-    url: /book/
+  # - title: "Linear Algebra"
+  #   url: /la/
+  # - title: "Deep Learning"
+  #   url: /book/
   - title: "Reinforcement Learning"
     url: /rl/
   - title: "Object Detection"
     url: /od/
-  - title: "Natural Language Processing"
-    url: /nlp/
+  # - title: "Natural Language Processing"
+  #   url: /nlp/
 
 ###################### LA book (start) #############################
 
@@ -139,10 +139,10 @@ sidebar-labook:
     url: /la/
   - title: "Intro"
     url: /labook/
-  - title: "1장. 딥러닝과 텐서플로의 만남"
-    url: "labook/la-ch01"
-  - title: "2장. 텐서플로 설치와 주피터 노트북"
-    url: "labook/la-ch02"
+  # - title: "1장. 딥러닝과 텐서플로의 만남"
+  #   url: "labook/la-ch01"
+  # - title: "2장. 텐서플로 설치와 주피터 노트북"
+  #   url: "labook/la-ch02"
 
 ###################### Object Detectioon (start) #############################
 
@@ -329,22 +329,27 @@ sidebar-rl:
     url: /mlstudy/
   - title: "Intro"
     url: /rl/rl-intro
+  - title: "MDP"
+    url: /rl/rl-MDP
+  - title: "Bellman Equation"
+    url: /rl/rl-BE
 
-  - title: "Book"
-    children :
-    - title: "[book] 파이썬과 케라스로 배우는 강화학습 - 이웅원"
-      url: /rlLee/
-    - title: "[book] Reinforcement learning - Sutton"
-      url: /rlSutton/
-  - title: "RL 논문"
-    children :
-    - title: "[book] 파이썬과 케라스로 배우는 강화학습 - 이웅원"
-      url: /rlLee/
-    - title: "[book] Reinforcement learning - Sutton"
-      url: /rlSutton/
-  - title: "RL code"
-    url: /probability_and_statistics_contents/
-
+# """
+#   - title: "Book"
+#     children :
+#     - title: "[book] 파이썬과 케라스로 배우는 강화학습 - 이웅원"
+#       url: /rlLee/
+#     - title: "[book] Reinforcement learning - Sutton"
+#       url: /rlSutton/
+#   - title: "RL 논문"
+#     children :
+#     - title: "[book] 파이썬과 케라스로 배우는 강화학습 - 이웅원"
+#       url: /rlLee/
+#     - title: "[book] Reinforcement learning - Sutton"
+#       url: /rlSutton/
+#   - title: "RL code"
+#     url: /probability_and_statistics_contents/
+# """
 
 ###################### rl-sutton (start) #############################
 sidebar-rlSutton:
@@ -429,8 +434,8 @@ sidebar-tools:
     url: /tools/
   - title: "Git"
     url: /gtool/
-  - title: "python"
-    url: /python/
+  # - title: "python"
+  #   url: /python/
 
 ###################### tools - gtool (start) #############################
 
