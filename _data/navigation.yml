@@ -320,7 +320,8 @@ sidebar-rl:
     url: /rl/rl-MDP
   - title: "Bellman Equation"
     url: /rl/rl-BE
-
+  - title: "Dynamic Programming"
+    url: /rl/rl-DP
 # """
 #   - title: "Book"
 #     children :

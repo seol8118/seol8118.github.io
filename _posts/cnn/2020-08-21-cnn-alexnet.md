@@ -49,7 +49,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
 
 ## 3. 성능 개선
 
-<center><img src="/assets/images/cnn/relu.jpg" width="70%"  ></center>
+<center><img src="/assets/images/cnn/relu1.jpg" width="70%"  ></center>
 
 [<center>Source</center>](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 
