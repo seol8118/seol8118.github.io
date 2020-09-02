@@ -322,6 +322,10 @@ sidebar-rl:
     url: /rl/rl-BE
   - title: "Dynamic Programming"
     url: /rl/rl-DP
+  - title: "Dynamic Programming Algorithm"
+    url: /rl/rl-DPalgorithm
+  - title: "Monte Carlo"
+    url: /rl/rl-MC
 # """
 #   - title: "Book"
 #     children :
