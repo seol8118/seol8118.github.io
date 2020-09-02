@@ -326,6 +326,11 @@ sidebar-rl:
     url: /rl/rl-DPalgorithm
   - title: "Monte Carlo"
     url: /rl/rl-MC
+  - title: "Monte Carlo Control"
+    url: /rl/rl-MCcontrol
+  - title: "Temporal Difference"
+    url: /rl/rl-TD
+
 # """
 #   - title: "Book"
 #     children :
