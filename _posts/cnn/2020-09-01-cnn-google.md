@@ -67,7 +67,18 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
 
 - 이후 test 시에는 최종단의 classifier만을 사용한다.
 
-## 3. Classification 결과
+### 3.2 Global average pooling
+
+- 그 동안의 network들은 convolution을 거쳐 나온 feature map을 dense layer를 여러번 통과시켜 최종적으로 원하는 size의 softmax output을 출력으로 나오는 구조였다.
+
+- 반면 global average pooling은 단순히 convolution feature map에 대하여 평균값을 취해 flatten 해주고 나온 값을 dense layer 한 번만 통과시켜 softmax 결과가 나오게 끔 만든다. 이러한 pooling layer를 classifier에 전에 적용시킴을써 GoogLeNet은 망이 깊어짐에도 불구하고 parameter 개수를 줄였다.
+
+## 4. Trainin/Test
+- Training 시 aspect ratio를 [3:4, 4:3] 의 범위를 유지하면서 원본 이미지의 8~100% 해당하는 다양한 크기를 training에 사용하였으며 photomettric distortion을 통해 데이터를 늘렸다고 한다.
+
+- Test 시에는 256, 288, 320, 352 scale의 이미지에서 3개의 정사각형이미지를 취하고 여기서 코너와 센터에 대해 6개 이미지를 샘플링한 뒤 좌우 반전 시킴으로써 144개의 테스트 이미지를 만들어냈다고 하며 이 결과에 대해 voting 함으로써 최종 decision을 내렸다.
+
+## 4. Classification 결과
 
 <center><img src="/assets/images/cnn/google4.jpg" width="60%"  ></center>
 
